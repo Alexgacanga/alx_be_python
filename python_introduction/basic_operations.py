@@ -6,6 +6,7 @@ product = number1 * number2
 print("Addition of", number1 ," and ", number2," is ",addition) 
 print("Subtraction of", number1 ," and ", number2," is ",subtraction) 
 print("Product of", number1 ," and ", number2," is ",product)
+
 <<<<<<< HEAD
  
 =======
