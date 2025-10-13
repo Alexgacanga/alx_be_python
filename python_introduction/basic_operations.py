@@ -1,11 +1,11 @@
-num1 = 20
-num2 = 30
-addition = num1 + num2
-subtraction = num2 - num1
-product = num1 * num2
-print("Addition of", num1 ," and ", num2," is ",addition) 
-print("Subtraction of", num1 ," and ", num2," is ",subtraction) 
-print("Product of", num1 ," and ", num2," is ",product)
+number1 = 20
+number2 = 30
+addition = number1 + number2
+subtraction = number2 - number1
+product = number1 * number2
+print("Addition of", number1 ," and ", number2," is ",addition) 
+print("Subtraction of", number1 ," and ", number2," is ",subtraction) 
+print("Product of", number1 ," and ", number2," is ",product)
 <<<<<<< HEAD
  
 =======
