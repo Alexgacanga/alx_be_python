@@ -1,13 +1,15 @@
-number1 = 20
-number2 = 30
-addition = number1 + number2
-subtraction = number2 - number1
-product = number1 * number2
-print("Addition of", number1 ," and ", number2," is ",addition) 
-print("Subtraction of", number1 ," and ", number2," is ",subtraction) 
-print("Product of", number1 ," and ", number2," is ",product)
+# basic_operations.py
 
-<<<<<<< HEAD
- 
-=======
->>>>>>> 21ca4d243d3116d7278c01fc0fa3155228f2f836
+# Define the two numbers
+number1 = 10
+number2 = 5
+
+# Perform basic arithmetic operations
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
+
+# Print the results
+print(f"Addition of {number1} and {number2} is {addition}")
+print(f"Subtraction of {number1} and {number2} is {subtraction}")
+print(f"Multiplication of {number1} and {number2} is {multiplication}")
