@@ -14,7 +14,7 @@ def main():
             shopping_list.append(item_add)
         elif choice == '2':
             item_remove = input("Which item do you want to remove? ")
-            shopping_list.append(item_remove)
+            shopping_list.remove(item_remove)
         elif choice == '3':
             print(shopping_list)
         elif choice == '4':
