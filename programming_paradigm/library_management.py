@@ -2,23 +2,23 @@ class Book:
     """Represents a single book in the library."""
 
     def __init__(self, title, author):
-        self.title = title               # Public attribute
-        self.author = author             # Public attribute
-        self._is_checked_out = False     # Private attribute (by convention)
+        self.title = title               
+        self.author = author            
+        self._is_checked_out = False    
 
     def check_out(self):
         """Mark the book as checked out."""
         if not self._is_checked_out:
             self._is_checked_out = True
             return True
-        return False  # Already checked out
+        return False  
 
     def return_book(self):
         """Mark the book as returned (available)."""
         if self._is_checked_out:
             self._is_checked_out = False
             return True
-        return False  # Already available
+        return False  
 
     def is_available(self):
         """Check if the book is currently available."""
@@ -29,7 +29,7 @@ class Library:
     """Represents a library that manages a collection of books."""
 
     def __init__(self):
-        self._books = []  # ✅ private list (single underscore as specified)
+        self._books = []  
 
     def add_book(self, book):
         """Add a new book to the library collection."""
